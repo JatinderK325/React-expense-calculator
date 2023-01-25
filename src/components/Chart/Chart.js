@@ -1,7 +1,7 @@
 import React from "react";
 import './Chart.css';
 import ChartBar from './ChartBar';
-
+//component
 function Chart(props){
     // we are getting an array of values(i.e one of the properties of the object in dataPoints array) from an array of objects named dataPoints.
     const dataPointsValues = props.dataPoints.map(dataPoint => dataPoint.value);
